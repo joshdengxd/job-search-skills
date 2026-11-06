@@ -44,6 +44,7 @@ Self-contained core. `<skill-dir>` = this folder. Python 3.10+ stdlib only. Run 
    - **Strong** (company, title, official URL, base range + currency as printed, 1-2 line why-fit, Unverified gates, analysis file).
    - Counts: scanned / new / Maybe / Reject / Pending.
    - On the weekly run also a "Weekly summary": last 7 days by `first_seen` - Strong list, Maybe list with the one thing to verify, Reject count.
+9b. Backup pool: every company/role that is fit but NOT applied (Maybe tier, or Strong the user did not pick) is appended to `<data-dir>/backup-candidates.md` (company brief + roles + URLs + caveats: location type, province limits, still open). Re-check a backup entry's posting before recommending it. Never delete entries the user has not rejected.
 10. Notify: only if Strong >= 1, call `PushNotification` (proactive, <200 chars, one line). Zero Strong -> no notification.
 11. `run_scan.py state --set-run`.
 
