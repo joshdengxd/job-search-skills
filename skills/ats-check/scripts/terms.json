@@ -1,0 +1,377 @@
+{
+ "React": [
+  "react",
+  "react.js",
+  "reactjs"
+ ],
+ "Next.js": [
+  "next.js",
+  "nextjs"
+ ],
+ "TypeScript": [
+  "typescript"
+ ],
+ "JavaScript": [
+  "javascript",
+  "ecmascript",
+  "es6"
+ ],
+ "Node.js": [
+  "node.js",
+  "nodejs",
+  "node"
+ ],
+ "Vue": [
+  "vue",
+  "vue.js"
+ ],
+ "Angular": [
+  "angular"
+ ],
+ "Svelte": [
+  "svelte"
+ ],
+ "Redux": [
+  "redux"
+ ],
+ "GraphQL": [
+  "graphql"
+ ],
+ "Apollo": [
+  "apollo"
+ ],
+ "HTML": [
+  "html",
+  "html5"
+ ],
+ "CSS": [
+  "css",
+  "css3",
+  "sass",
+  "scss"
+ ],
+ "Tailwind": [
+  "tailwind"
+ ],
+ "Webpack/Vite": [
+  "webpack",
+  "vite"
+ ],
+ "Storybook": [
+  "storybook"
+ ],
+ "Accessibility": [
+  "accessibility",
+  "a11y",
+  "wcag",
+  "aria",
+  "vpat"
+ ],
+ "Design systems": [
+  "design system",
+  "design systems",
+  "component library",
+  "component libraries"
+ ],
+ "Jest": [
+  "jest"
+ ],
+ "Playwright": [
+  "playwright"
+ ],
+ "Cypress": [
+  "cypress"
+ ],
+ "Testing": [
+  "unit test",
+  "unit tests",
+  "unit testing",
+  "integration test",
+  "integration tests",
+  "test automation",
+  "tdd",
+  "end-to-end test",
+  "e2e"
+ ],
+ "C#": [
+  "c#"
+ ],
+ ".NET": [
+  ".net",
+  "dotnet",
+  "asp.net",
+  ".net core"
+ ],
+ "Java": [
+  "java"
+ ],
+ "Kotlin": [
+  "kotlin"
+ ],
+ "Python": [
+  "python"
+ ],
+ "Golang": [
+  "golang"
+ ],
+ "Rust": [
+  "rust"
+ ],
+ "Ruby": [
+  "ruby",
+  "ruby on rails",
+  "rails"
+ ],
+ "PHP": [
+  "php"
+ ],
+ "Scala": [
+  "scala"
+ ],
+ "Django/Flask/FastAPI": [
+  "django",
+  "flask",
+  "fastapi"
+ ],
+ "Spring": [
+  "spring boot",
+  "spring"
+ ],
+ "REST": [
+  "rest",
+  "restful",
+  "rest api",
+  "rest apis"
+ ],
+ "gRPC": [
+  "grpc"
+ ],
+ "Microservices": [
+  "microservice",
+  "microservices"
+ ],
+ "Distributed systems": [
+  "distributed system",
+  "distributed systems"
+ ],
+ "Event-driven": [
+  "event-driven",
+  "event driven",
+  "pub/sub",
+  "pubsub"
+ ],
+ "Kafka": [
+  "kafka"
+ ],
+ "RabbitMQ": [
+  "rabbitmq"
+ ],
+ "Service Bus": [
+  "service bus"
+ ],
+ "Temporal": [
+  "temporal"
+ ],
+ "Redis": [
+  "redis"
+ ],
+ "Elasticsearch": [
+  "elasticsearch",
+  "opensearch"
+ ],
+ "PostgreSQL": [
+  "postgresql",
+  "postgres"
+ ],
+ "MySQL": [
+  "mysql"
+ ],
+ "SQL Server": [
+  "sql server",
+  "mssql"
+ ],
+ "MongoDB": [
+  "mongodb",
+  "mongo"
+ ],
+ "SQL": [
+  "sql"
+ ],
+ "NoSQL": [
+  "nosql",
+  "dynamodb",
+  "cassandra"
+ ],
+ "OAuth/OIDC": [
+  "oauth",
+  "oauth2",
+  "oauth 2.0",
+  "oidc",
+  "openid"
+ ],
+ "Keycloak": [
+  "keycloak"
+ ],
+ "OpenFGA": [
+  "openfga"
+ ],
+ "Authorization": [
+  "authorization",
+  "rbac",
+  "abac",
+  "permissions"
+ ],
+ "Authentication": [
+  "authentication",
+  "sso",
+  "saml"
+ ],
+ "AWS": [
+  "aws",
+  "amazon web services"
+ ],
+ "Azure": [
+  "azure"
+ ],
+ "GCP": [
+  "gcp",
+  "google cloud"
+ ],
+ "Kubernetes": [
+  "kubernetes",
+  "k8s"
+ ],
+ "Docker": [
+  "docker",
+  "containers",
+  "containerization"
+ ],
+ "Terraform": [
+  "terraform"
+ ],
+ "Helm": [
+  "helm"
+ ],
+ "CI/CD": [
+  "ci/cd",
+  "ci cd",
+  "continuous integration",
+  "continuous delivery",
+  "continuous deployment",
+  "github actions",
+  "jenkins",
+  "gitlab ci",
+  "circleci"
+ ],
+ "Observability": [
+  "observability",
+  "opentelemetry",
+  "tracing",
+  "monitoring",
+  "datadog",
+  "splunk",
+  "grafana",
+  "prometheus",
+  "sentry",
+  "new relic"
+ ],
+ "Release engineering": [
+  "release engineering",
+  "release management",
+  "feature flags",
+  "feature flag"
+ ],
+ "Git": [
+  "git"
+ ],
+ "Linux": [
+  "linux"
+ ],
+ "Agile": [
+  "agile",
+  "scrum",
+  "kanban"
+ ],
+ "AI-assisted dev": [
+  "ai-assisted",
+  "ai assisted",
+  "claude code",
+  "copilot",
+  "cursor",
+  "coding agent",
+  "coding agents",
+  "agentic",
+  "ai agents",
+  "llm",
+  "llms"
+ ],
+ "Performance": [
+  "performance optimization",
+  "web performance",
+  "core web vitals",
+  "performance"
+ ],
+ "Security": [
+  "security",
+  "owasp",
+  "appsec"
+ ],
+ "Payments": [
+  "payments",
+  "billing",
+  "stripe"
+ ],
+ "Full-stack": [
+  "full-stack",
+  "full stack",
+  "fullstack"
+ ],
+ "API design": [
+  "api design",
+  "api development",
+  "apis",
+  "api"
+ ],
+ "Code review": [
+  "code review",
+  "code reviews",
+  "pull request",
+  "pull requests"
+ ],
+ "Mentoring": [
+  "mentor",
+  "mentoring",
+  "mentorship"
+ ],
+ "Technical design": [
+  "technical design",
+  "design docs",
+  "architecture",
+  "system design",
+  "tech spec"
+ ],
+ "On-call": [
+  "on-call",
+  "on call",
+  "oncall"
+ ],
+ "React Native/Mobile": [
+  "react native",
+  "ios",
+  "android",
+  "mobile"
+ ],
+ "Data pipelines": [
+  "data pipeline",
+  "data pipelines",
+  "etl",
+  "spark",
+  "airflow"
+ ],
+ "Machine learning": [
+  "machine learning",
+  "ml",
+  "pytorch",
+  "tensorflow"
+ ]
+}
