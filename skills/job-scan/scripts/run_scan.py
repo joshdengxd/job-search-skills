@@ -23,6 +23,7 @@ import concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import scan_jobs as sj  # noqa: E402
 import ats_sources as A  # noqa: E402
+import extra_sources as X  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 JOBS = "jobs"
@@ -125,6 +126,7 @@ def run_scan():
     with cf.ThreadPoolExecutor(24) as ex:
         for r in ex.map(one, boards()):
             jobs += r
+    jobs += X.fetch_all(load(f"{JOBS}/extra-sources.json", {}))  # company-feed sources (not on ATS boards)
     return jobs
 
 

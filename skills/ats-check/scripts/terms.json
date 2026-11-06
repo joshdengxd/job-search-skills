@@ -318,8 +318,7 @@
  ],
  "Payments": [
   "payments",
-  "billing",
-  "stripe"
+  "billing"
  ],
  "Full-stack": [
   "full-stack",
