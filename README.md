@@ -26,7 +26,7 @@ Most AI resume tools optimize for volume and invent claims. This pipeline optimi
 
 ## The pipeline
 
-<p align="center"><img src="assets/pipeline.svg" alt="Per-job pipeline: gate, produce, independent checks, apply" width="100%"></p>
+<p align="center"><a href="assets/pipeline.svg?raw=true"><img src="assets/pipeline.svg" alt="Per-job pipeline: gate, produce, independent checks, apply" width="100%"></a><br><sub>Click the diagram to open it full size.</sub></p>
 
 A separate scheduled flow, `job-scan`, polls public ATS boards, runs `jd-analyzer` on new postings only, and notifies on strong fits. It never applies.
 
