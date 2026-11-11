@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190 590" width="1190" height="590" role="img" aria-label="Job search pipeline: gate, produce, independent checks, apply">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1f2328" flood-opacity="0.10"/></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F8FA"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#57606a"/></marker>
+<marker id="arg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2EA44F"/></marker>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#D1242F"/></marker>
+<marker id="aro" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E36209"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="1189" height="589" rx="18" fill="url(#bg)" stroke="#D0D7DE"/>
+<text x="40" y="48" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2328">Per-job pipeline</text>
+<text x="40" y="72" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#57606a">Every artifact is produced from one verified master. Every check runs in a fresh context. A human submits.</text>
+<rect x="40" y="100" width="255" height="380" rx="14" fill="#FFF8F0" stroke="#E36209" stroke-opacity="0.35"/>
+<circle cx="66" cy="128" r="12" fill="#E36209"/><text x="66" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="86" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#E36209">GATE</text>
+<rect x="325" y="100" width="255" height="380" rx="14" fill="#F3F8FF" stroke="#1F6FEB" stroke-opacity="0.35"/>
+<circle cx="351" cy="128" r="12" fill="#1F6FEB"/><text x="351" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="371" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#1F6FEB">PRODUCE</text>
+<rect x="610" y="100" width="255" height="380" rx="14" fill="#F3FBF4" stroke="#2EA44F" stroke-opacity="0.35"/>
+<circle cx="636" cy="128" r="12" fill="#2EA44F"/><text x="636" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="656" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#2EA44F">INDEPENDENT CHECKS</text>
+<rect x="895" y="100" width="255" height="380" rx="14" fill="#F8F4FF" stroke="#6B4FBB" stroke-opacity="0.35"/>
+<circle cx="921" cy="128" r="12" fill="#6B4FBB"/><text x="921" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="941" y="133" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#6B4FBB">APPLY</text>
+<rect x="60" y="156" width="215" height="44" rx="10" fill="#fff" stroke="#8c959f" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="61" y="166" width="4" height="24" rx="2" fill="#8c959f"/>
+<text x="78" y="183.0" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2328">Job posting</text>
+<rect x="60" y="220" width="215" height="64" rx="10" fill="#fff" stroke="#E36209" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="61" y="230" width="4" height="44" rx="2" fill="#E36209"/>
+<text x="78" y="244" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">jd-analyzer</text>
+<text x="78" y="262" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Hard-requirement gates</text>
+<text x="78" y="277" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">+ evidence map</text>
+<rect x="60" y="326" width="215" height="62" rx="10" fill="#FFF1F0" stroke="#D1242F" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="61" y="336" width="4" height="42" rx="2" fill="#D1242F"/>
+<text x="78" y="350" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2328">Stop and log</text>
+<text x="78" y="368" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Any Ineligible gate</text>
+<path d="M167.5 200 L167.5 218" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<path d="M167.5 284 L167.5 324" fill="none" stroke="#D1242F" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="345" y="156" width="215" height="64" rx="10" fill="#fff" stroke="#1F6FEB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="346" y="166" width="4" height="44" rx="2" fill="#1F6FEB"/>
+<text x="363" y="180" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">resume-tailor</text>
+<text x="363" y="198" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Facts from the master only</text>
+<text x="363" y="213" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Changelog of every change</text>
+<rect x="345" y="240" width="215" height="64" rx="10" fill="#fff" stroke="#1F6FEB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="346" y="250" width="4" height="44" rx="2" fill="#1F6FEB"/>
+<text x="363" y="264" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">claim-verifier</text>
+<text x="363" y="282" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Fabrication diff vs master</text>
+<text x="363" y="297" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">New numbers, tools, titles</text>
+<rect x="345" y="324" width="215" height="64" rx="10" fill="#fff" stroke="#1F6FEB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="346" y="334" width="4" height="44" rx="2" fill="#1F6FEB"/>
+<text x="363" y="348" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">resume-pdf</text>
+<text x="363" y="366" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">One-column, text-selectable</text>
+<text x="363" y="381" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">ATS-safe PDF</text>
+<path d="M452.5 220 L452.5 238" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<path d="M452.5 304 L452.5 322" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<rect x="630" y="156" width="215" height="64" rx="10" fill="#fff" stroke="#2EA44F" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="631" y="166" width="4" height="44" rx="2" fill="#2EA44F"/>
+<text x="648" y="180" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">ats-check</text>
+<text x="648" y="198" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Parse, format, keywords</text>
+<text x="648" y="213" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Score >= 90, no hard fail</text>
+<rect x="630" y="240" width="215" height="64" rx="10" fill="#fff" stroke="#2EA44F" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="631" y="250" width="4" height="44" rx="2" fill="#2EA44F"/>
+<text x="648" y="264" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">resume-auditor</text>
+<text x="648" y="282" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Truth, density, 10-second scan</text>
+<text x="648" y="297" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Interview-getting power</text>
+<rect x="630" y="324" width="215" height="62" rx="10" fill="#F0FAF2" stroke="#2EA44F" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="631" y="334" width="4" height="42" rx="2" fill="#2EA44F"/>
+<text x="648" y="348" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2328">Fresh subagent each round</text>
+<text x="648" y="366" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Producer never grades itself</text>
+<text x="648" y="381" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Max 2 fix rounds</text>
+<path d="M737.5 220 L737.5 238" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#arg)"/>
+<rect x="915" y="156" width="215" height="64" rx="10" fill="#fff" stroke="#6B4FBB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="916" y="166" width="4" height="44" rx="2" fill="#6B4FBB"/>
+<text x="933" y="180" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2328">Fill form</text>
+<text x="933" y="198" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Human-paced browsing</text>
+<text x="933" y="213" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Free-text drafts approved first</text>
+<rect x="915" y="240" width="215" height="64" rx="10" fill="#fff" stroke="#6B4FBB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="916" y="250" width="4" height="44" rx="2" fill="#6B4FBB"/>
+<text x="933" y="264" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">form-auditor</text>
+<text x="933" y="282" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Read-only, before any submit</text>
+<text x="933" y="297" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#57606a">Max 3 rounds, then ask you</text>
+<rect x="915" y="324" width="215" height="52" rx="10" fill="#fff" stroke="#6B4FBB" stroke-opacity="0.55" filter="url(#sh)"/>
+<rect x="916" y="334" width="4" height="32" rx="2" fill="#6B4FBB"/>
+<text x="933" y="355.0" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2328">application-tracker</text>
+<path d="M1022.5 220 L1022.5 238" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<path d="M1022.5 304 L1022.5 322" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<rect x="915" y="396" width="215" height="50" rx="25" fill="#6B4FBB" filter="url(#sh)"/>
+<text x="1022.5" y="426" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">You review and submit</text>
+<path d="M1022.5 376 L1022.5 394" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<path d="M275 252 C315 252 305 188 345 188" fill="none" stroke="#E36209" stroke-width="1.6"  marker-end="url(#aro)"/>
+<text x="310" y="218" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#E36209" text-anchor="middle">Eligible</text>
+<path d="M560 356 C600 356 590 188 630 188" fill="none" stroke="#57606a" stroke-width="1.6"  marker-end="url(#ar)"/>
+<path d="M845 272 C885 272 875 188 915 188" fill="none" stroke="#2EA44F" stroke-width="1.6"  marker-end="url(#arg)"/>
+<text x="880" y="234" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#2EA44F" text-anchor="middle">PASS</text>
+<path d="M737.5 480 L737.5 502 L452.5 502 L452.5 482" fill="none" stroke="#2EA44F" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arg)"/>
+<text x="595.0" y="495" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#2EA44F" text-anchor="middle">fail: fix, rerun with a new subagent</text>
+<circle cx="46" cy="556" r="6" fill="#E36209"/><text x="60" y="560" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606a">Gate</text>
+<circle cx="114" cy="556" r="6" fill="#1F6FEB"/><text x="128" y="560" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606a">Produce</text>
+<circle cx="203" cy="556" r="6" fill="#2EA44F"/><text x="217" y="560" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606a">Independent check</text>
+<circle cx="362" cy="556" r="6" fill="#6B4FBB"/><text x="376" y="560" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606a">Human step</text>
+<text x="1150" y="560" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606a" text-anchor="end">Scheduled job-scan feeds postings in. It never applies.</text>
+</svg>
